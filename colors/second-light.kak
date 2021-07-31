@@ -17,7 +17,6 @@ evaluate-commands %sh{
     base0D="rgb:4271ae"
     base0E="rgb:8959a8"
     base0F="rgb:af4609"
-    high_contrast_blue="rgb:004488"
     vibrant_orange="rgb:EE7733"
     muted_rose="rgb:CC6677"
     pale_cyan="rgb:CCEEFF"
@@ -56,8 +55,8 @@ evaluate-commands %sh{
     face global PrimaryCursor      ${base00},${vibrant_orange}+fg
     face global PrimaryCursorEol   ${base00},${base0F}+fg
     face global SecondarySelection ${pale_cyan},${base04}+fg
-    face global SecondaryCursor    ${base00},${base0D}+fg
-    face global SecondaryCursorEol ${base00},${high_contrast_blue}+fg
+    face global SecondaryCursor    ${base00},${base06}+fg
+    face global SecondaryCursorEol ${base00},${base05}+fg
 
     face global MatchingChar       ${base0F},${base01}+f
     face global Search             ${base06},${base02}+iu
