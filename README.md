@@ -4,7 +4,7 @@ A [base16-tomorrow](https://github.com/leira/base16-kakoune/blob/master/colors/b
 
 [![Screen-Shot-2021-07-27-at-15-46-03.png](https://i.postimg.cc/sDQCrn0R/Screen-Shot-2021-07-27-at-15-46-03.png)](https://postimg.cc/KR2H7529)
 
-Screenshot is syntax highlighted by [kak-lsp](https://github.com/kak-lsp/kak-lsp).
+Screenshot is syntax highlighted by [kak-lsp](https://github.com/kak-lsp/kak-lsp) with:
 
 <details>
 <summary>semantic_tokens</summary>
