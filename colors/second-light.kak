@@ -7,73 +7,74 @@ evaluate-commands %sh{
     base01="rgb:E8E8E8"
     base02="rgb:F0E7DF"
     base03="rgb:BAA188"
-    base04="rgb:969896"
+    base04="rgb:8E908C"
     base05="rgb:4D4D4C"
     base06="rgb:666633"
-    base09="rgb:F5871F"
+    base07="rgb:A3685A"
+    base08="rgb:CC6677"
+    base09='rgb:F5871F'
     base0A="rgb:B58800"
     base0B="rgb:718C00"
     base0C="rgb:3E999F"
     base0D="rgb:4271AE"
     base0E="rgb:8959A8"
-    base0F="rgb:AF4609"
-    vibrant_orange="rgb:EE7733"
-    muted_rose="rgb:CC6677"
+    base0F="rgb:EEEEBB"
+    pale_sand="rgb:FDF6E2"
     pale_cyan="rgb:CCEEFF"
-    mark_yellow="rgb:EEEEBB"
-    dark_green="rgb:225522"
 
     cat <<- EOF
 
     # For Code
-    face global module    ${base0E}
-    face global keyword   ${muted_rose}
-    face global builtin   ${base0E}
-    face global function  ${base0A}
-    face global type      ${base0E}
-    face global variable  ${base0D}
-    face global value     ${base09}
-    face global string    ${base0B}
-    face global comment   ${base03}+i
-    face global documentation ${base06}+i
-    face global operator  ${base05}
-    face global attribute ${base0A}
-    face global meta      ${base0C}
+    face global module        ${base08}
+    face global keyword       ${base0E}
+    face global builtin       ${base08}
+    face global function      ${base07}
+    face global type          ${base0A}
+    face global variable      ${base0D}
+    face global value         ${base0C}
+    face global string        ${base0B}
+    face global comment       ${base04}
+    face global documentation ${base06}
+    face global operator      ${base08}
+    face global attribute     ${base09}
+    face global meta          ${base06}+d
 
     # For markup
-    face global title  ${base0D}+b
-    face global header ${base0D}
-    face global mono   ${base0B}
-    face global block  ${base09}
+    face global title  ${base0A}
+    face global header ${base08}
+    face global mono   ${base0D}
+    face global block  ${base0E}
     face global link   ${base0C}+u
-    face global list   Default
+    face global list   ${base06}
     face global bullet +b
 
     face global Default            ${base05},${base00}
 
-    face global PrimarySelection   ${base05},${pale_cyan}
-    face global PrimaryCursor      ${base00},${vibrant_orange}+fg
-    face global PrimaryCursorEol   ${base00},${base0F}+fg
-    face global SecondarySelection ${pale_cyan},${base04}+fg
-    face global SecondaryCursor    ${base00},${base06}+fg
-    face global SecondaryCursorEol ${base00},${base05}+fg
+    face global PrimarySelection   ${base05},${pale_cyan}+g
+    face global PrimaryCursor      ${base00},${base06}+fg
+    face global PrimaryCursorEol   ${base00},${base05}+fg
+    face global SecondarySelection ${base06},${base01}+fg
+    face global SecondaryCursor    ${base00},${base0A}+fg
+    face global SecondaryCursorEol ${base0F},${base07}+fg
 
-    face global MatchingChar       ${base0F},${base01}+f
-    face global Search             ${base06},${base02}+iu
-    face global Whitespace         ${mark_yellow}+f
-    face global WrapMarker         ${base03}+fb
+    face global MatchingChar       ${base05},${base02}+fg
+    face global Search             ${base0A},${pale_sand}
+    face global Whitespace         ${base0F}+f
+    face global WrapMarker         ${base03}+b
     face global BufferPadding      ${base03},${base00}
     face global LineNumbers        ${base03},${base01}
     face global LineNumberCursor   ${base06},${base01}
     face global LineNumbersWrapped ${base01},${base01}
-    face global MenuBackground     ${dark_green},${base01}
-    face global MenuForeground     ${dark_green},${mark_yellow}+fg
-    face global MenuInfo           ${base0A}+f
-    face global Information        ${base05},${mark_yellow}
-    face global Error              ${base00},${base0F}
+    face global MenuBackground     ${base0E},${base01}
+    face global MenuForeground     ${base0E},${base0F}+b
+    face global MenuInfo           ${base0A}
+    face global Information        ${base05},${base0F}
+    face global Error              ${base00},${base08}
+    face global DiagnosticError    ${base09},${pale_sand}+f
+    face global DiagnosticWarning  ${base04},${pale_sand}+f
     face global StatusLine         ${base00},${base0C}
     face global StatusLineMode     ${base00},${base0B}
-    face global StatusLineInfo     ${mark_yellow}
+    face global StatusLineInfo     ${base0F}
     face global StatusLineValue    ${base00}
     face global StatusCursor       default,${base05}
     face global Prompt             ${base00}+b
