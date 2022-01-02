@@ -2,7 +2,7 @@
 
 A [base16-tomorrow](https://github.com/leira/base16-kakoune/blob/master/colors/base16-tomorrow.kak) based colorscheme for [Kakoune](https://kakoune.org).
 
-[![Screen-Shot-2021-07-27-at-15-46-03.png](https://i.postimg.cc/sDQCrn0R/Screen-Shot-2021-07-27-at-15-46-03.png)](https://postimg.cc/KR2H7529)
+[![Screen-Shot-2022-01-02-at-14-30-52.png](https://i.postimg.cc/FKRL4cdd/Screen-Shot-2022-01-02-at-14-30-52.png)](https://postimg.cc/21s6d1xr)
 
 Screenshot is syntax highlighted by [kak-lsp](https://github.com/kak-lsp/kak-lsp) with:
 
