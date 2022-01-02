@@ -25,17 +25,17 @@ evaluate-commands %sh{
     cat <<- EOF
 
     # For Code
-    face global module        ${base08}
+    face global module        ${base07}
     face global keyword       ${base0E}
-    face global builtin       ${base08}
-    face global function      ${base07}
-    face global type          ${base0A}
+    face global builtin       ${base07}
+    face global function      ${base0A}
+    face global type          ${base08}
     face global variable      ${base0D}
     face global value         ${base0C}
     face global string        ${base0B}
     face global comment       ${base04}
     face global documentation ${base06}
-    face global operator      ${base08}
+    face global operator      ${base07}
     face global attribute     ${base09}
     face global meta          ${base06}+d
 
