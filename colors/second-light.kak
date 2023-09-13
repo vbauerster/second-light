@@ -18,9 +18,9 @@ evaluate-commands %sh{
     base0D='rgb:4271AE'
     base0E='rgb:8959A8'
     base0F='rgb:B58800'
-    base10='rgb:EED9E0'
-    base11='rgb:DFDFF4'
-    base12='rgb:666633'
+    extra00='rgb:EED9E0'
+    extra01='rgb:DFDFF4'
+    extra02='rgb:666633'
 
     cat <<EOF
 
@@ -35,7 +35,7 @@ evaluate-commands %sh{
     face global string        ${base0B}
     face global comment       ${base04}
     face global documentation ${base0A}+i
-    face global operator      ${base12}
+    face global operator      ${extra02}
     face global attribute     ${base0C}
     face global meta          ${base08}
 
@@ -50,10 +50,10 @@ evaluate-commands %sh{
 
     # BUILTIN
     face global Default            ${base05},${base00}
-    face global PrimarySelection   ${base05},${base10}+g
+    face global PrimarySelection   ${base05},${extra00}+g
     face global PrimaryCursor      ${base00},${base06}+F
     face global PrimaryCursorEol   ${base00},${base06}+F
-    face global SecondarySelection ${base05},${base11}+fg
+    face global SecondarySelection ${base05},${extra01}+fg
     face global SecondaryCursor    ${base00},${base04}+F
     face global SecondaryCursorEol ${base00},${base04}+F
 
@@ -88,6 +88,6 @@ evaluate-commands %sh{
     face global InlayDiagnosticInfo    ${base0C}
     face global InlayDiagnosticHint    ${base06}
     face global InlayHint ${base03}
-    face global InlayCodeLens ${base12}
+    face global InlayCodeLens ${extra02}
 EOF
 }
