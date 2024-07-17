@@ -60,7 +60,7 @@ set-face global SecondaryCursorEol "rgb:%opt{main_background},rgb:%opt{base00}+f
 set-face global LineNumbers        "rgb:%opt{base07},rgb:%opt{menu_background}"
 set-face global LineNumberCursor   "rgb:%opt{base03},rgb:%opt{menu_background}"
 set-face global LineNumbersWrapped "rgb:%opt{main_background},rgb:%opt{menu_background}+b"
-set-face global MenuForeground     "rgb:%opt{base0D},rgb:%opt{focus_background}"
+set-face global MenuForeground     "rgb:%opt{base08},rgb:%opt{focus_background}"
 set-face global MenuBackground     "rgb:%opt{base0D},rgb:%opt{menu_background}"
 set-face global MenuInfo           "rgb:%opt{base03}"
 set-face global Information        "rgb:%opt{base08},rgb:%opt{menu_background}"
