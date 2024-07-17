@@ -43,11 +43,11 @@ set-face global builtin       "rgb:%opt{base01}"
 # MARKUP
 set-face global title  "rgb:%opt{base0B}"
 set-face global header "rgb:%opt{base06}"
-set-face global mono   "rgb:%opt{base05}"
+set-face global mono   "rgb:%opt{base01}"
 set-face global block  "rgb:%opt{base0D}"
 set-face global link   "rgb:%opt{base04}+u"
 set-face global bullet "rgb:%opt{base0A}"
-set-face global list   "rgb:%opt{base01}"
+set-face global list   "rgb:%opt{base05}"
 
 # BUILTIN
 set-face global Default            "rgb:%opt{base00},rgb:%opt{main_background}"
