@@ -16,6 +16,7 @@ declare-option str base0C 'A5CDFF'
 declare-option str base0D '8959A8'
 declare-option str base0E '9893A5'
 declare-option str base0F 'E8E8E8'
+
 declare-option str main_background 'FFFAF3'
 declare-option str focus_background 'F0F0CC'
 declare-option str menu_background %opt{base0F}
