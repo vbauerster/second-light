@@ -28,17 +28,17 @@ declare-option str selection_opacity '80'
 # CODE
 set-face global value         "rgb:%opt{base06}"
 set-face global type          "rgb:%opt{base04}"
-set-face global variable      "rgb:%opt{base01}"
-set-face global module        "rgb:%opt{base00}"
-set-face global function      "rgb:%opt{base05}"
+set-face global variable      "rgb:%opt{base05}"
+set-face global module        "rgb:%opt{base06}"
+set-face global function      "rgb:%opt{base00}"
 set-face global string        "rgb:%opt{base0A}"
 set-face global keyword       "rgb:%opt{base0D}"
 set-face global operator      "rgb:%opt{base02}"
 set-face global attribute     "rgb:%opt{base03}"
 set-face global comment       "rgb:%opt{base0E}"
 set-face global documentation "rgb:%opt{base07}+d"
-set-face global meta          "rgb:%opt{base01}"
-set-face global builtin       "rgb:%opt{base06}"
+set-face global meta          "rgb:%opt{base02}"
+set-face global builtin       "rgb:%opt{base01}"
 
 # MARKUP
 set-face global title  "rgb:%opt{base0B}"
